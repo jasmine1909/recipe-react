@@ -5,6 +5,7 @@
     font-family: 'Bona Nova', serif;
 }
 body{
+    
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 .main{
@@ -12,6 +13,7 @@ padding:5vw;
 position: relative;
 
 }
+
 .img, .img2{
     position: absolute;
     width:100px;

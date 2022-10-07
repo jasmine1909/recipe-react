@@ -6,14 +6,14 @@ import Recipe from "./components/Recipe";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Router>
         <Routes>
           <Route path="/" element={<Meal />}></Route>
           <Route path="/:recipeId" element={<Recipe />}></Route>
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 
